@@ -37,3 +37,15 @@ https://jikor1st.tistory.com/14?category=1260754
 ### 1. Next js Layout Patterns
 
 https://jikor1st.tistory.com/15?category=1260754
+
+### 2. Next js Fetching Data / public 경로
+
+https://jikor1st.tistory.com/16?category=1260754
+
+### 3. Next js ( Redirect / Rewrite ) , Rewrite 로 API key를 숨기자
+
+https://jikor1st.tistory.com/17?category=1260754
+
+### 4. Next js SSR : get server side props
+
+https://jikor1st.tistory.com/18?category=1260754
