@@ -1,0 +1,11 @@
+.nav {  
+    display:flex;
+    justify-content:center;
+    background:#cccccc;
+}
+.aRest { 
+    text-decoration:none;
+}
+.active {
+    color:tomato;
+}
