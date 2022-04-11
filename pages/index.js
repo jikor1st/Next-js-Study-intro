@@ -6,18 +6,19 @@ export default function Home({ results: movies }) {
   const router = useRouter();
 
   const onClick = ({ id, original_title, poster_path }) => {
-    router.push(
-      {
-        pathname: `/movies/${id}`,
-        query: {
-          // 보낼 데이터
-          id,
-          original_title,
-          poster_path,
-        },
-      },
-      `/movies/${id}`
-    );
+    // router.push(
+    //   {
+    //     pathname: `/movies/${original_title}/${id}`,
+    //     query: {
+    //       // 보낼 데이터
+    //       id,
+    //       original_title,
+    //       poster_path,
+    //     },
+    //   },
+    //   `/movies/${id}`
+    // );
+    router.push(`/movies/${original_title}/${id}`);
   };
   return (
     <div className="container">
@@ -39,16 +40,17 @@ export default function Home({ results: movies }) {
             <img src={`https://image.tmdb.org/t/p/w500${poster_path}`} />
             <h4>
               <Link
-                href={{
-                  pathname: `/movies/${id}`,
-                  query: {
-                    // 보낼 데이터
-                    id,
-                    original_title,
-                    poster_path,
-                  },
-                }}
-                as={`/movies/${id}`}
+                // href={{
+                //   pathname: `/movies/${id}`,
+                //   query: {
+                //     // 보낼 데이터
+                //     id,
+                //     original_title,
+                //     poster_path,
+                //   },
+                // }}
+                // as={`/movies/${id}`}
+                href={`/movies/${original_title}/${id}`}
               >
                 <a>{original_title}</a>
               </Link>
