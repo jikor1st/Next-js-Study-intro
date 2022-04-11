@@ -49,3 +49,15 @@ https://jikor1st.tistory.com/17?category=1260754
 ### 4. Next js SSR : get server side props
 
 https://jikor1st.tistory.com/18?category=1260754
+
+### 5. Next js Dynamic Routes / 중첩 라우팅 / URL 변수 / router state 전달 및 마스킹
+
+https://jikor1st.tistory.com/19?category=1260754
+
+### 6. Next js Catch-All URL / serverSideProps Context
+
+https://jikor1st.tistory.com/20?category=1260754
+
+### 7. Next js 404Page / 수박 겉핥기 공부 끝
+
+https://jikor1st.tistory.com/21?category=1260754
